@@ -1,0 +1,48 @@
+LUXO MUNDO PET - PACOTE DO CODIGO-FONTE
+Projeto Integrador - Laboratorio de Programacao - UNISA
+
+COMECE AQUI
+1. Extraia o ZIP: clique com o botao direito e escolha Extrair tudo.
+2. Abra a pasta extraida Luxo_Mundo_Pet.
+3. No Windows, clique duas vezes em INICIAR_WINDOWS.bat.
+4. A loja abrira no navegador. Mantenha a janela do programa aberta.
+5. Para encerrar, pressione Ctrl+C na janela do programa.
+
+REQUISITO
+Python 3.10 ou superior instalado no computador.
+Se o computador informar que Python nao foi encontrado, instale o Python
+pelo site oficial https://www.python.org/downloads/ e, se a opcao aparecer,
+marque Add Python to PATH. Depois abra novamente INICIAR_WINDOWS.bat.
+Nao e necessario instalar Flask, Django ou outros pacotes.
+
+ENDERECOS
+Loja: http://127.0.0.1:8080
+Painel administrativo: http://127.0.0.1:8080/admin
+Senha da demonstracao pelo iniciador: GrupoPet2026!
+Esta senha e para a demonstracao local com dados ficticios.
+
+O QUE E CADA ARQUIVO
+app.py: codigo-fonte completo da loja. Contem Python, HTML, CSS e JavaScript.
+iniciar.py: configura a demonstracao e abre o navegador.
+INICIAR_WINDOWS.bat: iniciador de dois cliques no Windows.
+README.md: documentacao tecnica e roteiro de demonstracao.
+loja.db: banco de dados criado automaticamente na primeira execucao.
+Nao e necessario criar ou baixar o banco separadamente.
+
+COMO MOSTRAR AO GRUPO
+Abra a loja, adicione um produto ao carrinho e envie um pedido com dados
+ficticios. Abra Admin, informe a senha e confira o pedido e o estoque.
+Envie uma mensagem pela tela Suporte e confira o registro no painel.
+O suporte registra mensagens; nao e chat ao vivo.
+O sistema nao realiza cobranca ou pagamento online.
+
+PARA EXECUTAR POR COMANDO
+Windows: py -3 iniciar.py
+Linux ou macOS: python3 iniciar.py
+Se a porta 8080 estiver ocupada, encerre outra copia da loja e tente novamente.
+
+PARA A FACULDADE
+Este ZIP e o pacote de codigo-fonte. O relatorio PDF e um documento separado.
+Envie este ZIP ao grupo. Para colocar um link na capa, envie o ZIP a uma
+pasta do Google Drive ou a um repositorio e copie o link de acesso.
+Confira que o professor consegue acessar o endereco escolhido.
